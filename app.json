@@ -2,6 +2,7 @@
   "expo": {
     "name": "FeedSection",
     "slug": "FeedSection",
+    "scheme": "FeedSection",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.FeedSection"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0a436cc6-5482-40bf-ac35-80ef334f1701"
+      }
     }
   }
 }
